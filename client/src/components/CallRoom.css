@@ -1,0 +1,72 @@
+.call-room-container {
+    text-align: center;
+    margin: 40px auto;
+    width: 300px;
+    background: #fff;
+    padding: 25px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+  
+  .call-room-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .call-room-status {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #28a745;
+  }
+  
+  .call-room-timer {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .call-room-button, .call-room-end-button {
+    padding: 10px 20px;
+    margin: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .call-room-button {
+    background: #007bff;
+    color: white;
+  }
+  
+  .call-room-end-button {
+    background: #dc3545;
+    color: white;
+  }
+  
+  .speaking-dot {
+    width: 12px;
+    height: 12px;
+    margin: 12px auto 0;
+    border-radius: 50%;
+    background: gray;
+    transition: background-color 0.3s ease;
+  }
+  
+  .speaking-dot.speaking {
+    background: green;
+  }
+  
+  .speaking-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    margin-top: 10px;
+  }
+  
+  .speaking-dot.speaking {
+    background-color: green;
+  }
+  
